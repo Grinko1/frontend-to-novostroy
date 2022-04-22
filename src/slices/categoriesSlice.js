@@ -13,7 +13,7 @@ const initialState ={
     status:null,
     error:null
 }
-const BASE_URL = 'https://novostoyback.herokuapp.com/api'
+const BASE_URL = 'https://api-novostroy.herokuapp.com/api'
 
 export const fetchBalcony = createAsyncThunk(
     'categories/fetchBalcony',

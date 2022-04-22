@@ -11,7 +11,7 @@ const initialState = {
     error:null,
     access_token: localStorage.getItem('access_token') ? localStorage.getItem('access_token') : null
 }
-const BASE_URL = 'https://novostoyback.herokuapp.com/api';
+const BASE_URL = 'https://api-novostroy.herokuapp.com/api';
 
 export const login = createAsyncThunk(
     'user/login',

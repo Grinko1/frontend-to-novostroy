@@ -107,7 +107,7 @@ const FormForEdit = () => {
 
     console.log(id);
 
-    axios.post(`https://novostoyback.herokuapp.com/api/flats/${id}`, formData,
+    axios.post(`https://api-novostroy.herokuapp.com/api/flats/${id}`, formData,
     {
   config:{
 

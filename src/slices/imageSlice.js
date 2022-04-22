@@ -5,7 +5,7 @@ const initialState = {
     status: '',
     error: '',
 }
-const BASE_URL = 'https://novostoyback.herokuapp.com/api';
+const BASE_URL = 'https://api-novostroy.herokuapp.com/api';
 
 export const deleteImage = createAsyncThunk(
     'images/deleteImage',

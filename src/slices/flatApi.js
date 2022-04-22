@@ -4,7 +4,7 @@ export const flatApi = createApi({
   reducerPath: 'flatApi',
   tagTypes: ['Flats'],
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://novostoyback.herokuapp.com/api',
+    baseUrl: 'https://api-novostroy.herokuapp.com/api',
   }),
   endpoints: (build) => ({
     getFlats: build.query({

@@ -66,7 +66,7 @@ const AddFlat = () => {
       formData.append('files[]', files[i]);
     }
 
-    axios.post('https://novostoyback.herokuapp.com/api/flats', formData,{
+    axios.post('https://api-novostroy.herokuapp.com/api/flats', formData,{
   config:{
     headers:{
         'Content-Type' : 'multipart/form-data'
